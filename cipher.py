@@ -45,7 +45,6 @@ def cipher(text):
     file = open("xor.txt", "w")
     file.write(cipherText)
     cipherText = reverseString(cipherText)
-    print(cipherText)
     return cipherText
     #explanation: the text is first substituted with the shuffledAlphabet
     #then it is shifted by 13
